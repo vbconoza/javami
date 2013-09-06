@@ -149,6 +149,26 @@
                 path="/Users/joyamendoza/Desktop/00JAS/00ACADS/4A/198 javami/javami/javamiProject/javami/src/main/res/layout/game_memory.xml"
                 qualifiers=""
                 type="layout" />
+            <file
+                name="gestures"
+                path="/Users/joyamendoza/Desktop/00JAS/00ACADS/4A/198 javami/javami/javamiProject/javami/src/main/res/raw/gestures"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="house"
+                path="/Users/joyamendoza/Desktop/00JAS/00ACADS/4A/198 javami/javami/javamiProject/javami/src/main/res/drawable-hdpi/house.jpg"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="playground"
+                path="/Users/joyamendoza/Desktop/00JAS/00ACADS/4A/198 javami/javami/javamiProject/javami/src/main/res/drawable-hdpi/playground.jpg"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="school"
+                path="/Users/joyamendoza/Desktop/00JAS/00ACADS/4A/198 javami/javami/javamiProject/javami/src/main/res/drawable-hdpi/school.jpg"
+                qualifiers="hdpi"
+                type="drawable" />
         </source>
         <source path="/Users/joyamendoza/Desktop/00JAS/00ACADS/4A/198 javami/javami/javamiProject/javami/build/res/rs/debug" />
     </dataSet>

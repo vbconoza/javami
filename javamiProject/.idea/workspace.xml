@@ -12,6 +12,13 @@
       </config>
     </shared>
     <layouts>
+      <layout url="file://$PROJECT_DIR$/javami/src/main/res/layout/game_difficulty.xml">
+        <config>
+          <device>7inch</device>
+          <state>Landscape</state>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/javami/src/main/res/layout/game_handwriting.xml">
         <config>
           <device>7inch</device>
@@ -51,18 +58,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1862a528-f115-4017-88a2-36a6a9a16a5a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javami/src/main/java/com/example/javami/HandwritingGame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javami/src/main/java/com/example/javami/MemoryGame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javami/src/main/java/com/example/javami/SearchSortGame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javami/src/main/java/com/example/javami/SelectGame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javami/src/main/res/layout/game_handwriting.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javami/src/main/res/layout/game_memory.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javami/src/main/res/layout/game_search_sort.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javami/src/main/res/menu/handwriting_game.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javami/src/main/res/menu/memory_game.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javami/src/main/res/menu/search_sort_game.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javami/src/main/res/layout/select_game.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javami/src/main/res/menu/select_game.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javami/src/main/res/layout/game_difficulty.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javami/src/main/java/com/example/javami/HandwritingGame.java" afterPath="$PROJECT_DIR$/javami/src/main/java/com/example/javami/HandwritingGame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javami/build/source/r/debug/com/example/javami/R.java" afterPath="$PROJECT_DIR$/javami/build/source/r/debug/com/example/javami/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javami/build/res/all/debug/layout/game_handwriting.xml" afterPath="$PROJECT_DIR$/javami/build/res/all/debug/layout/game_handwriting.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javami/src/main/res/layout/game_handwriting.xml" afterPath="$PROJECT_DIR$/javami/src/main/res/layout/game_handwriting.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="javami.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -125,13 +126,13 @@
     <favorites_list name="javami" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.3223754">
       <split-first>
         <leaf>
-          <file leaf-file-name="HomeScreen.java" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="HomeScreen.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/javami/src/main/java/com/example/javami/HomeScreen.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="30" column="1" selection-start="751" selection-end="751" vertical-scroll-proportion="0.51605505" vertical-offset="0" max-vertical-offset="872">
+                <state line="15" column="0" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -142,7 +143,7 @@
           <file leaf-file-name="SelectGame.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/javami/src/main/java/com/example/javami/SelectGame.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="18" column="31" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+                <state line="26" column="30" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -150,11 +151,13 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="HandwritingGame.java" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="HandwritingGame.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/javami/src/main/java/com/example/javami/HandwritingGame.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="13" column="0" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-                  <folding />
+                <state line="40" column="49" selection-start="1426" selection-end="1426" vertical-scroll-proportion="0.57416266" vertical-offset="0" max-vertical-offset="1045">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -193,25 +196,39 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="select_game.xml" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="select_game.xml" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/javami/src/main/res/layout/select_game.xml">
               <provider editor-type-id="android-designer">
                 <state />
               </provider>
               <provider selected="true" editor-type-id="text-editor">
-                <state line="18" column="45" selection-start="947" selection-end="947" vertical-scroll-proportion="0.3195266" vertical-offset="0" max-vertical-offset="1140">
+                <state line="20" column="0" selection-start="999" selection-end="999" vertical-scroll-proportion="-8.888889" vertical-offset="60" max-vertical-offset="1140">
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="game_difficulty.xml" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/javami/src/main/res/layout/game_difficulty.xml">
+              <provider selected="true" editor-type-id="android-designer">
+                <state />
+              </provider>
+              <provider editor-type-id="text-editor">
+                <state line="12" column="47" selection-start="678" selection-end="678" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+                  <folding>
+                    <element signature="e#753#774#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="game_handwriting.xml" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/javami/src/main/res/layout/game_handwriting.xml">
-              <provider editor-type-id="android-designer">
+              <provider selected="true" editor-type-id="android-designer">
                 <state />
               </provider>
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="330">
+              <provider editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
                   <folding />
                 </state>
               </provider>
@@ -298,6 +315,9 @@
         <option value="$PROJECT_DIR$/javami/src/main/java/com/example/javami/SelectGame.java" />
         <option value="$PROJECT_DIR$/javami/src/main/res/layout/home.xml" />
         <option value="$PROJECT_DIR$/javami/src/main/res/layout/select_game.xml" />
+        <option value="$PROJECT_DIR$/javami/src/main/java/com/example/javami/HandwritingGame.java" />
+        <option value="$PROJECT_DIR$/javami/src/main/res/layout/game_difficulty.xml" />
+        <option value="$PROJECT_DIR$/javami/src/main/res/layout/game_handwriting.xml" />
       </list>
     </option>
   </component>
@@ -495,6 +515,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable-hdpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javami" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javamiProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javami" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -513,7 +563,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="S100" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="T9590675147d" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="7inch" />
@@ -681,7 +731,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975337" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975337" sideWeight="0.8092399" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -695,8 +745,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980111" sideWeight="0.6706408" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935917" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980111" sideWeight="0.8092399" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19076006" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -773,46 +823,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javami/src/main/res/layout/home.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="1803" selection-end="1803" vertical-scroll-proportion="-26.666666" vertical-offset="0" max-vertical-offset="810">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javami/src/main/java/com/example/javami/HandwritingGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javami/src/main/res/layout/game_handwriting.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1274">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javami/src/main/java/com/example/javami/MemoryGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javami/src/main/res/layout/game_search_sort.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="651" selection-end="651" vertical-scroll-proportion="-8.888889" vertical-offset="0" max-vertical-offset="330">
           <folding />
         </state>
       </provider>
@@ -834,12 +847,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javami/src/main/java/com/example/javami/SelectGame.java">
+    <entry file="file://$PROJECT_DIR$/javami/src/main/java/com/example/javami/HomeScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="31" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+        <state line="15" column="0" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javami/src/main/res/layout/home.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="0" selection-start="1803" selection-end="1803" vertical-scroll-proportion="-26.666666" vertical-offset="0" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javami/src/main/java/com/example/javami/SelectGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="30" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javami/src/main/java/com/example/javami/HandwritingGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="49" selection-start="1426" selection-end="1426" vertical-scroll-proportion="0.57416266" vertical-offset="0" max-vertical-offset="1045">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javami/src/main/res/layout/game_search_sort.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="651" selection-end="651" vertical-scroll-proportion="-8.888889" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javami/src/main/res/layout/game_handwriting.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -848,16 +909,19 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="45" selection-start="947" selection-end="947" vertical-scroll-proportion="0.3195266" vertical-offset="0" max-vertical-offset="1140">
+        <state line="20" column="0" selection-start="999" selection-end="999" vertical-scroll-proportion="-8.888889" vertical-offset="60" max-vertical-offset="1140">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javami/src/main/java/com/example/javami/HomeScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="1" selection-start="751" selection-end="751" vertical-scroll-proportion="0.51605505" vertical-offset="0" max-vertical-offset="872">
+    <entry file="file://$PROJECT_DIR$/javami/src/main/res/layout/game_difficulty.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="12" column="47" selection-start="678" selection-end="678" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#753#774#0" expanded="true" />
           </folding>
         </state>
       </provider>
